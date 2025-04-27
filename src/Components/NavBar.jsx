@@ -9,12 +9,12 @@ import styles from "./NavBar.module.css";
 import { VscAccount } from 'react-icons/vsc';
 
 const NAV_ITEMS = [
-  { title: "Editorial", path: "editorials", countries: ["Reviewers", "Join-as-Reviewer&Referral", "Peer-Review-Editoral-Policy", ] },
-  { title: "Authors", path: "authors", countries: ["Paper-Format", "How-publish-paper", "Author's-Guidelines", "Copyright-Form", "Processing-Charges", "Track-Paper", "Publication-Policy", "Ethics-Policy","Refund-Policy","UGC-Care-List-Journal","Peer-Review-Policy","Scientific-Journal","Journal-For-Engineering-Research","Journal-For-Electrical-Engineering","Journal-For-Computer-Science","Journal-For-Civil-Engineering","Journal-For-Social-Sciences","Terms-and-conditions"] },
-  { title: "Conference", path: "conference", countries: ["New-Proposal&Terms", "Special-Issues", "Upcoming-Conferences", ] },
+  { title: "Editorial", path: "editorials", countries: ["Reviewers", "Join-as-Reviewer&Referral", "Peer-Review-Editoral-Policy",] },
+  { title: "Authors", path: "authors", countries: ["Paper-Format", "How-publish-paper", "Authors-Guidelines", "Copyright-Form", "Processing-Charges", "Track-Paper", "Publication-Policy", "Ethics-Policy", "Refund-Policy", "UGC-Care-List-Journal", "Peer-Review-Policy", "Scientific-Journal", "Journal-For-Engineering-Research", "Journal-For-Electrical-Engineering", "Journal-For-Computer-Science", "Journal-For-Civil-Engineering", "Journal-For-Social-Sciences", "Terms-and-conditions"] },
+  { title: "Conference", path: "conference", countries: ["New-Proposal&Terms", "Special-Issues", "Upcoming-Conferences",] },
 
-  
-  
+
+
 ];
 
 const NavBar = () => {
@@ -69,7 +69,7 @@ const NavBar = () => {
 
         {/* Navigation Links */}
         <ul className={clsx(styles.navLinks, { [styles.showMenu]: menuOpen })}>
-        <li><Link href="/" title="Home">Home</Link></li>
+          <li><Link href="/" title="Home">Home</Link></li>
           <li><Link href="/about-us" title="About Us">Adout</Link></li>
 
           {/* Dropdown Menus */}
@@ -104,7 +104,7 @@ const NavBar = () => {
           <li><Link href="/career" title="Current Issue">Current Issue</Link></li>
           <li><Link href="/reviews" title="reviews">Reviews</Link></li>
 
-        
+
           {/* Separate List Items for Login and Register */}
           <li className={styles.User}><VscAccount /></li>
 
