@@ -9,9 +9,9 @@ import styles from "./NavBar.module.css";
 import { VscAccount } from 'react-icons/vsc';
 
 const NAV_ITEMS = [
-  { title: "Editorial", path: "editorials", countries: ["Reviewers", "Join-as-Reviewer/Referral", "Peer-Review-Editoral-Policy", ] },
+  { title: "Editorial", path: "editorials", countries: ["Reviewers", "Join-as-Reviewer&Referral", "Peer-Review-Editoral-Policy", ] },
   { title: "Authors", path: "authors", countries: ["Paper-Format", "How-publish-paper", "Author's-Guidelines", "Copyright-Form", "Processing-Charges", "Track-Paper", "Publication-Policy", "Ethics-Policy","Refund-Policy","UGC-Care-List-Journal","Peer-Review-Policy","Scientific-Journal","Journal-For-Engineering-Research","Journal-For-Electrical-Engineering","Journal-For-Computer-Science","Journal-For-Civil-Engineering","Journal-For-Social-Sciences","Terms-and-conditions"] },
-  { title: "Conference", path: "conference", countries: ["New-Proposal/Terms", "Special-Issues", "Upcoming-Conferences", ] },
+  { title: "Conference", path: "conference", countries: ["New-Proposal&Terms", "Special-Issues", "Upcoming-Conferences", ] },
 
   
   
