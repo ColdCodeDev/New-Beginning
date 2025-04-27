@@ -1,4 +1,4 @@
-// File: C:\Users\udayu\Desktop\new begining\globalvisainternationals-main\src\app\layout.jsx
+// File: C:\Users\udayu\Desktop\new begining\New-Beginning\src\app\layout.jsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
