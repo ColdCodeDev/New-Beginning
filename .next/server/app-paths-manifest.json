@@ -1,0 +1,7 @@
+{
+  "/page": "app/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/research-paper/authors/paper-format/page": "app/research-paper/authors/paper-format/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/submit-papers/page": "app/submit-papers/page.js"
+}
