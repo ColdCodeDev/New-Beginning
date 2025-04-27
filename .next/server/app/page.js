@@ -307,7 +307,7 @@ module.exports = require("path");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/react-icons","vendor-chunks/@swc","vendor-chunks/clsx","vendor-chunks/react-google-recaptcha-v3"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.jsx&appDir=C%3A%5CUsers%5Cudayu%5CDesktop%5Cnew%20begining%5CNew-Beginning%5Csrc%5Capp&pageExtensions=js&pageExtensions=jsx&pageExtensions=md&pageExtensions=mdx&rootDir=C%3A%5CUsers%5Cudayu%5CDesktop%5Cnew%20begining%5CNew-Beginning&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/react-icons","vendor-chunks/react-google-recaptcha-v3","vendor-chunks/@swc","vendor-chunks/clsx"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader/index.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.jsx&appDir=C%3A%5CUsers%5Cudayu%5CDesktop%5Cnew%20begining%5CNew-Beginning%5Csrc%5Capp&pageExtensions=js&pageExtensions=jsx&pageExtensions=md&pageExtensions=mdx&rootDir=C%3A%5CUsers%5Cudayu%5CDesktop%5Cnew%20begining%5CNew-Beginning&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

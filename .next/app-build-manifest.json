@@ -17,6 +17,11 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
+    "/research-paper/editorials/peer-review-editoral-policy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/research-paper/editorials/peer-review-editoral-policy/page.js"
+    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
