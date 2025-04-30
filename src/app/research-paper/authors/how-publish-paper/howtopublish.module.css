@@ -36,3 +36,9 @@
 .rightSidebar button:hover {
   background-color: #0056b3;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
