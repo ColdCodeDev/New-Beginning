@@ -10,7 +10,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #d1f3f8;
+  background: #a2dee0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 1000;
   padding: 0;
@@ -50,8 +50,8 @@
 
 .navLinks a:hover,
 .navLinks a:focus {
-  background-color: #1d587c;
-  color: #fff;
+  background-color: #227cb4;
+  color: #7bef67;
   transform: translateY(-2px);
 }
 
@@ -79,14 +79,13 @@
   position: absolute;
   top: 100%;
   left: 0;
-  background: #d1f3f8;
+  background: #a2dee0;
   min-width: 180px;
   border-radius: 10px;
   visibility: hidden;
   opacity: 0;
   transition: all 0.3s ease;
   padding: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 999;
 }
 
@@ -111,7 +110,7 @@
 
 .submenu li a:hover {
   background-color: #1d797c;
-  color: #fff;
+  color: #5ccb40;
 }
 
 /* Desktop hover behavior */
@@ -155,7 +154,7 @@
 @media screen and (max-width: 768px) {
   .navContainer {
     height: 80px;
-    background-color: #1d797c;
+    background-color: #a2dee0;
   }
 
   .menu {
@@ -166,7 +165,7 @@
     position: fixed;
     top: 40px;
     right: 0;
-    background: #1d797c;
+    background: #a2dee0;
     flex-direction: column;
     opacity: 0;
     align-items: center;
@@ -189,7 +188,7 @@
   .submenu {
     display: none;
     position: relative;
-    background: #1d497c;
+    background: #1c3233;
     opacity: 1;
     visibility: visible;
     padding: 0;
@@ -202,13 +201,15 @@
   }
 
   .submenu li a {
-    color: #fff;
+    color: #ffffff;
     font-size: 13px;
     padding: 8px;
   }
 
   .submenu li a:hover {
     background: #104f5f;
+    width: 90%;
+    color: #49e34c;
   }
 
   .user {
