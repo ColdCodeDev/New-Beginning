@@ -5,47 +5,47 @@ import styles from './processingcharges.module.css'; // <-- Import your CSS modu
 
 export default function ProcessingCharges() {
   return (
+
     <div className={styles.container}>
-      <div className={styles.container}>
-  <section className={styles.processingCharges}>
-    <h2 className={styles.title}>Processing Charges</h2>
-    <p className={styles.intro}>
-      At IJIRT, we strive to provide high-quality publication services at competitive rates. Below are the processing charges applicable to Indian and International authors.
-    </p>
-    
-    <h3 className={styles.subTitle}>For Indian Authors</h3>
-    <ul className={styles.details}>
-      <li>Standard Paper (6 pages): INR 1850</li>
-      <li>Number of Authors: Up to 13 authors without extra charge</li>
-      <li>Extra Pages: Charges apply for additional pages</li>
-    </ul>
+      <div>
+        <section>
+          <h2>Processing Charges</h2>
+          <p >
+            At IJIRT, we strive to provide high-quality publication services at competitive rates. Below are the processing charges applicable to Indian and International authors.
+          </p>
 
-    <h3 className={styles.subTitle}>For International Authors</h3>
-    <ul className={styles.details}>
-      <li>Standard Paper: $100</li>
-      <li>Extra Pages: Charges apply for additional pages</li>
-    </ul>
+          <h3>For Indian Authors</h3>
+          <ul>
+            <li>Standard Paper (6 pages): INR 1850</li>
+            <li>Number of Authors: Up to 13 authors without extra charge</li>
+            <li>Extra Pages: Charges apply for additional pages</li>
+          </ul>
 
-    <p className={styles.payment}>Payments should be made as per the options during acceptance notification.</p>
-  </section>
+          <h3>For International Authors</h3>
+          <ul>
+            <li>Standard Paper: $100</li>
+            <li>Extra Pages: Charges apply for additional pages</li>
+          </ul>
 
-  <section className={styles.impactFactor}>
-    <h2 className={styles.title}>Impact Factor</h2>
-    <p>8.01 (Year 2024)</p>
-    <h3 className={styles.subTitle}>UGC Approved</h3>
-    <p>Journal no 47859</p>
-  </section>
+          <p>Payments should be made as per the options during acceptance notification.</p>
+        </section>
 
-  <section className={styles.rightSidebar}>
-    <h2 className={styles.sidebarTitle}>Join Our IPN</h2>
-    <h3 className={styles.sidebarSubtitle}>IJIRT Partner Network</h3>
-    <p className={styles.sidebarText}>
-      Submit your research paper and those of your network (friends, colleagues, or peers) through your IPN account, and receive 800 INR for each paper that gets published.
-    </p>
-    <button className={styles.joinButton}>Join Now</button>
-  </section>
-</div>
-
+        <section >
+          <h2>Impact Factor</h2>
+          <p>8.01 (Year 2024)</p>
+          <h3>UGC Approved</h3>
+          <p>Journal no 47859</p>
+        </section>
+      </div>
+      <section className={styles.rightSidebar}>
+        <h2>Join Our IPN</h2>
+        <h3 >IJIRT Partner Network</h3>
+        <p>
+          Submit your research paper and those of your network (friends, colleagues, or peers) through your IPN account, and receive 800 INR for each paper that gets published.
+        </p>
+        <button className={styles.joinButton}>Join Now</button>
+      </section>
     </div>
+
   );
 }
