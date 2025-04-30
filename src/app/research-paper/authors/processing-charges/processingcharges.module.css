@@ -8,8 +8,10 @@
   margin-top: 50px;
   gap: 40px;
   padding: 20px;
+  flex-wrap: nowrap;
 }
 
+/* Sidebar Styles */
 .rightSidebar {
   width: 30%;
   position: sticky;
@@ -17,8 +19,10 @@
   padding: 20px;
   background-color: #f4f4f4;
   border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Button */
 .joinButton {
   background-color: #2d88f3;
   color: white;
@@ -26,7 +30,6 @@
   padding: 10px 15px;
   font-size: 16px;
   cursor: pointer;
-
   margin-top: 10px;
 }
 
@@ -34,8 +37,31 @@
   background-color: #1a64b2;
 }
 
+/* Responsive styles for tablets and phones */
 @media (max-width: 768px) {
   .container {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .rightSidebar {
+    width: 80%;
+    position: static;
+    box-shadow: none;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .joinButton {
+    font-size: 14px;
+    padding: 8px 12px;
   }
 }
