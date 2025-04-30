@@ -6,7 +6,7 @@ import Image from "next/image";
 import clsx from "clsx";
 import { FaBars, FaTimes, FaChevronDown } from "react-icons/fa";
 import styles from "./NavBar.module.css";
-import { VscAccount } from 'react-icons/vsc';
+
 
 const NAV_ITEMS = [
   { title: "Editorial", path: "editorials", countries: ["Reviewers", "Join-as-Reviewer&Referral", "Peer-Review-Editoral-Policy",] },
@@ -49,8 +49,8 @@ const NavBar = () => {
         <Link href="/" className={styles.logoLink}>
           <Image
             className={styles.logo}
-            src="/gvilogo.png"
-            alt="Global Visa Internationals Logo"
+            src="/coldcoderdev.png"
+            alt="Cold Code Developers Logo"
             width={120}
             height={40}
             priority
@@ -70,7 +70,7 @@ const NavBar = () => {
         {/* Navigation Links */}
         <ul className={clsx(styles.navLinks, { [styles.showMenu]: menuOpen })}>
           <li><Link href="/" title="Home">Home</Link></li>
-          <li><Link href="/about-us" title="About Us">Adout</Link></li>
+          <li><Link href="/about-us" title="About Us">About</Link></li>
 
           {/* Dropdown Menus */}
           {NAV_ITEMS.map(({ title, path, countries }) => (
@@ -106,7 +106,17 @@ const NavBar = () => {
 
 
           {/* Separate List Items for Login and Register */}
-          <li className={styles.User}><VscAccount /></li>
+          <Link href="/Login" >
+            <Image
+              className={styles.user} // Make sure your class name is lowercase 'user', not 'User'
+              src="/images/user.webp"
+              alt="Cold Code Developers Logo"
+              width={120}
+              height={40}
+              priority
+            />
+          </Link>
+
 
 
         </ul>
