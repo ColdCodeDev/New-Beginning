@@ -1,6 +1,5 @@
 .container {
   display: flex;
-
   justify-content: space-between;
   align-items: flex-start;
   width: 100%;
@@ -33,4 +32,10 @@
 
 .joinButton:hover {
   background-color: #1a64b2;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-wrap: wrap;
+  }
 }
