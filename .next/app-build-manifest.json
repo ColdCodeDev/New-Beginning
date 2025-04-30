@@ -17,15 +17,22 @@
       "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
-    "/research-paper/editorials/peer-review-editoral-policy/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/research-paper/editorials/peer-review-editoral-policy/page.js"
-    ],
     "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/research-paper/authors/processing-charges/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/research-paper/authors/processing-charges/page.css",
+      "static/chunks/app/research-paper/authors/processing-charges/page.js"
+    ],
+    "/research-paper/authors/how-publish-paper/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/research-paper/authors/how-publish-paper/page.css",
+      "static/chunks/app/research-paper/authors/how-publish-paper/page.js"
     ]
   }
 }

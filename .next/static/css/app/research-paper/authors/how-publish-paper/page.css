@@ -1,0 +1,121 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/research-paper/authors/how-publish-paper/howtopublish.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* howtopublish.module.css */
+.howtopublish_container__814tN {
+    display: flex;
+  padding: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  
+}
+
+.howtopublish_pageTitle__BuBRl {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.howtopublish_introduction___LakY {
+  margin-bottom: 20px;
+}
+
+.howtopublish_introText__KQI2N {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+.howtopublish_steps__Fp8sr {
+  margin-top: 20px;
+}
+
+.howtopublish_step__t15Zm {
+  margin-bottom: 20px;
+}
+
+.howtopublish_stepTitle__pJWMl {
+  font-size: 1.8rem;
+  color: #0056b3;
+  margin-bottom: 8px;
+}
+
+.howtopublish_stepDesc__QFZKd {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.howtopublish_stepList__kVWq_ {
+  margin-top: 10px;
+  margin-left: 20px;
+  list-style-type: disc;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.howtopublish_stepList__kVWq_ li {
+  margin-bottom: 5px;
+}
+
+.howtopublish_conclusion__1nzrY {
+  margin-top: 40px;
+}
+
+.howtopublish_finalText__oyk0b {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.8;
+  text-align: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .howtopublish_pageTitle__BuBRl {
+    font-size: 2rem;
+  }
+
+  .howtopublish_stepTitle__pJWMl {
+    font-size: 1.5rem;
+  }
+
+  .howtopublish_stepDesc__QFZKd, .howtopublish_stepList__kVWq_ {
+    font-size: 1rem;
+  }
+}
+
+    .howtopublish_rightSidebar__Ms57j {
+        margin-top: 50px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 50px; /* Adjust this value as needed */
+        width: 550px;
+        padding: 20px;
+        height: -moz-fit-content;
+        height: fit-content;
+        background-color: #f9f9f9;
+        border: 2px solid #ddd;
+      }
+      
+  
+  
+  .howtopublish_rightSidebar__Ms57j h2 {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .howtopublish_rightSidebar__Ms57j button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .howtopublish_rightSidebar__Ms57j button:hover {
+    background-color: #0056b3;
+  }
+  

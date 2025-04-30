@@ -1,0 +1,74 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/research-paper/authors/processing-charges/processingcharges.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.processingcharges_container__vSQ7f {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .processingcharges_processingCharges__ZQt4r, .processingcharges_impactFactor__brA8j {
+    width: 60%;
+  }
+  
+  .processingcharges_rightSidebar__Ga1uY {
+    width: 30%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .processingcharges_title__F1_Tl {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .processingcharges_subTitle__F4ji2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .processingcharges_details__ZaheT {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .processingcharges_details__ZaheT li {
+    margin: 5px 0;
+  }
+  
+  .processingcharges_payment__yHK54 {
+    font-style: italic;
+  }
+  
+  .processingcharges_sidebarTitle__0ouo_ {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .processingcharges_sidebarSubtitle__a08nm {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  
+  .processingcharges_sidebarText__WNp0S {
+    font-size: 16px;
+  }
+  
+  .processingcharges_joinButton__Ul6lV {
+    background-color: #2d88f3;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .processingcharges_joinButton__Ul6lV:hover {
+    background-color: #1a64b2;
+  }
+  
