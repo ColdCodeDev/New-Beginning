@@ -22,17 +22,28 @@
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
-    "/research-paper/authors/processing-charges/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/research-paper/authors/processing-charges/page.css",
-      "static/chunks/app/research-paper/authors/processing-charges/page.js"
-    ],
     "/research-paper/authors/how-publish-paper/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/research-paper/authors/how-publish-paper/page.css",
       "static/chunks/app/research-paper/authors/how-publish-paper/page.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/about-us/page.css",
+      "static/chunks/app/about-us/page.js"
+    ],
+    "/submit-papers/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/submit-papers/page.js"
+    ],
+    "/research-paper/authors/authors-guidelines/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/research-paper/authors/authors-guidelines/page.css",
+      "static/chunks/app/research-paper/authors/authors-guidelines/page.js"
     ]
   }
 }

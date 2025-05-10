@@ -1,4 +1,4 @@
-// File: C:\Users\udayu\Desktop\new begining\New-Beginning\src\app\research-paper\authors\how-publish-paper\page.jsx
+// File: C:\Users\Naveen\Desktop\Cold Coders\New-Beginning\src\app\research-paper\authors\how-publish-paper\page.jsx
 import * as entry from '../../../../../../src/app/research-paper/authors/how-publish-paper/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

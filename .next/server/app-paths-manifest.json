@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
-  "/research-paper/authors/processing-charges/page": "app/research-paper/authors/processing-charges/page.js",
-  "/research-paper/authors/how-publish-paper/page": "app/research-paper/authors/how-publish-paper/page.js"
+  "/research-paper/authors/how-publish-paper/page": "app/research-paper/authors/how-publish-paper/page.js",
+  "/research-paper/authors/authors-guidelines/page": "app/research-paper/authors/authors-guidelines/page.js",
+  "/submit-papers/page": "app/submit-papers/page.js"
 }
