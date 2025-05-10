@@ -22,28 +22,32 @@
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
     ],
+    "/research-paper/authors/paper-format/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/research-paper/authors/paper-format/page.js"
+    ],
     "/research-paper/authors/how-publish-paper/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/research-paper/authors/how-publish-paper/page.css",
       "static/chunks/app/research-paper/authors/how-publish-paper/page.js"
     ],
+    "/research-paper/authors/scientific-journal/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/research-paper/authors/scientific-journal/page.js"
+    ],
+    "/research-paper/authors/peer-review-policy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/research-paper/authors/peer-review-policy/page.js"
+    ],
     "/about-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/about-us/page.css",
       "static/chunks/app/about-us/page.js"
-    ],
-    "/submit-papers/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/submit-papers/page.js"
-    ],
-    "/research-paper/authors/authors-guidelines/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/research-paper/authors/authors-guidelines/page.css",
-      "static/chunks/app/research-paper/authors/authors-guidelines/page.js"
     ]
   }
 }

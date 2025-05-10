@@ -1,6 +1,9 @@
 {
-  "/page": "app/page.js",
   "/research-paper/authors/how-publish-paper/page": "app/research-paper/authors/how-publish-paper/page.js",
-  "/research-paper/authors/authors-guidelines/page": "app/research-paper/authors/authors-guidelines/page.js",
-  "/submit-papers/page": "app/submit-papers/page.js"
+  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/research-paper/authors/paper-format/page": "app/research-paper/authors/paper-format/page.js",
+  "/research-paper/authors/peer-review-policy/page": "app/research-paper/authors/peer-review-policy/page.js",
+  "/research-paper/authors/scientific-journal/page": "app/research-paper/authors/scientific-journal/page.js",
+  "/about-us/page": "app/about-us/page.js"
 }
